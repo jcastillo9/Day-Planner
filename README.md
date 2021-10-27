@@ -1,7 +1,7 @@
 # Day-Planner
 
 # User Story
-As a full-time employee with a busy schedule, I want to add important events to a daily planner so that I can manage my time effectively
+As a full-time employee with a busy schedule, I want to add important events to a daily planner so that I can manage my time effectively.
 
 # How it Works
 The planner will display the current day at the top with standard business hour slots underneath. The past hours will be gray, present hours will be red and future hours will be green, and this should change depending on the time of day. Each slot will be for one hour and allow you to input any activities or appointments. 
