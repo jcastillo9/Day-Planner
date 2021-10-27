@@ -9,7 +9,6 @@ var twoHour = $("#14");
 var threeHour = $("#15");
 var fourHour = $("#16");
 var fiveHour = $("#17");
-var sixHour = $("#18");
 var time = moment();
 var saveBtn = $(".saveBtn");
 
