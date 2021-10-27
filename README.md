@@ -20,5 +20,5 @@ When you refresh the page, the text inputted will be saved to the time slot. You
 Run using the github URL: https://jcastillo9.github.io/Day-Planner/
 
 # Screenshot
-<img src="Assets/images/screen_shot.png"/>
-<img src="Assets/images/screenshot1.png"/>
+<img src="assets/images/screen_shot.png"/>
+<img src="assets/images/screenshot1.png"/>
