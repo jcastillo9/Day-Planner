@@ -1,5 +1,3 @@
-var sevenHour = $("#7");
-var eightHour = $("#8");
 var nineHour = $("#9");
 var tenHour = $("#10");
 var elevenHour = $("#11");
