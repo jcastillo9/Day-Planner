@@ -1,40 +1,34 @@
-var nineHour = $("#9");
-var tenHour = $("#10");
-var elevenHour = $("#11");
-var twelveHour = $("#12");
-var oneHour = $("#13");
-var twoHour = $("#14");
-var threeHour = $("#15");
-var fourHour = $("#16");
-var fiveHour = $("#17");
 var time = moment();
 var saveBtn = $(".saveBtn");
 
+$("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
+
 function inputPlanner() {
 
-    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
-
     $(".time-block").each(function () {
-        var id = $(this).attr("id");
-        var textblock = localStorage.getItem(id);
+      
+        var timeblock = $(this).attr("id");
+        var inputField = localStorage.getItem(timeblock);
 
-        if (textblock !== null) {
-            $(this).children(".textblock").val(textblock);
+        if (inputField !== "") {
+            $(this).children(".textblock").val(inputField);
         }
     });
 }
 
 inputPlanner();
 
-saveBtn.on("click", function () {
+function storedInput() {
+
     var time = $(this).parent().attr("id");
-    var textblock = $(this).siblings(".textblock").val();
+ 
+    var inputField = $(this).siblings(".textblock").val();
 
-    localStorage.setItem(time, textblock);
-});
+    localStorage.setItem(time, inputField);
+};
 
-function pastPresentFuture() {
-    hour = time.hours();
+function determineTime() {
+    var hour = time.hours();
     $(".time-block").each(function () {
         var currentHour = parseInt($(this).attr("id"));
 
@@ -50,4 +44,6 @@ function pastPresentFuture() {
     })
 }
 
-pastPresentFuture();
+determineTime();
+
+saveBtn.on("click", storedInput);
