@@ -11,7 +11,6 @@ When you refresh the page, the text inputted will be saved to the time slot. You
 
 # Technologies Used
 * HTML
-* JavaScript
 * JQuery
 * Moment.js
 * Local Storage

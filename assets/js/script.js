@@ -28,7 +28,9 @@ function storedInput() {
 };
 
 function determineTime() {
+    
     var hour = time.hours();
+
     $(".time-block").each(function () {
 
         var currentHour = parseInt($(this).attr("id"));
