@@ -4,11 +4,20 @@
 As a full-time employee with a busy schedule, I want to add important events to a daily planner so that I can manage my time effectively.
 
 # How it Works
-The planner will display the current day at the top with standard business hour slots underneath. The past hours will be gray, present hours will be red and future hours will be green, and this should change depending on the time of day. Each slot will be for one hour and allow you to input any activities or appointments. 
-
-Once you input content into the textbox, you will have to click 'Save' for it to store the content in the local storage.
-When you refresh the page, the text inputted will be saved to the time slot. You will be able to edit your planner at any time, but remember to click save for it to be stored.  
-
+* GIVEN I am using a daily planner to create a schedule
+* WHEN I open the planner
+* THEN the current day is displayed at the top of the calendar
+* WHEN I scroll down
+* THEN I am presented with timeblocks for standard business hours
+* WHEN I view the timeblocks for that day
+* THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+* WHEN I click into a timeblock
+* THEN I can enter an event
+* WHEN I click the save button for that timeblock
+* THEN the text for that event is saved in local storage
+* WHEN I refresh the page
+* THEN the saved events persist
+* 
 # Technologies Used
 * HTML
 * JQuery
@@ -20,3 +29,11 @@ Run using the github URL: https://jcastillo9.github.io/Day-Planner/
 
 # Screenshot
 <img src="assets/images/screen_shot.png"/>
+
+## Credits
+ 
+Lead Developer - Janette Castillo (janette.castillo91@yahoo.com)
+
+# License
+ 
+The MIT License (MIT)
