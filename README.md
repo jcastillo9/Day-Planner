@@ -29,6 +29,7 @@ Run using the github URL: https://jcastillo9.github.io/Day-Planner/
 
 # Screenshot
 <img src="assets/images/screen_shot.png"/>
+<img src="assets/images/screen_shot1.png"/>
 
 ## Credits
  
