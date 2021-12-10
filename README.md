@@ -25,7 +25,7 @@ As a full-time employee with a busy schedule, I want to add important events to 
 * Local Storage
 
 # Installation
-Run using the github URL: https://jcastillo9.github.io/Day-Planner/
+Run using the github URL: https://jcastillo9.github.io/day-planner/
 
 # Screenshot
 <img src="assets/images/screen_shot.png"/>
